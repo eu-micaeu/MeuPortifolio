@@ -1,0 +1,71 @@
+body {
+
+    margin: 0;
+
+    font-family: monospace;
+
+    background-color: black;
+
+}
+
+body .imgMicael{
+    
+    margin: 20px;
+
+    border: 2px solid white;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+}
+
+main{
+
+    color: aliceblue;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+h3{
+
+    color: gray;
+
+}
+
+p{
+
+    font-size: 1.0rem;
+
+    text-align: center;
+
+    width: 50%;
+
+}
+
+.linha{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-self: center;
+
+}
+
+.linha img{
+
+    margin: 15px;
+    
+}
+
+.GitHub{
+
+    border-radius: 15px;
+
+}
