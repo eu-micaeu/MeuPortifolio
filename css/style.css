@@ -69,3 +69,22 @@ p{
     border-radius: 15px;
 
 }
+
+li {
+    text-align: center;
+}
+
+#projetos{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+
+}
+
+a:hover{
+    color: rgb(33, 33, 33);
+}
