@@ -8,15 +8,83 @@ body {
 
 }
 
-body .imgMicael{
-    
-    margin: 20px;
+header{
 
-    border: 2px solid white;
+    height: 10vh;
 
-    padding: 15px;
+    display: flex;
 
-    border-radius: 15px;
+    background-color: white;
+
+    color: black;
+
+    padding: 20px;
+
+}
+
+header nav{
+
+    position: absolute;
+
+    right: 0;
+}
+
+header nav ul{
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+header nav ul li{
+
+    margin: 0px 20px;
+
+    list-style: none;
+
+    padding: 20px;
+
+    transition: transform 0.5s ease-in-out;
+
+}
+
+header nav ul li:hover{
+
+    transform: scale(1.2);
+}
+
+
+
+header nav ul li a:visited{
+
+    color: rgb(0, 0, 0);
+
+}
+
+header nav ul li a{
+
+    text-decoration: none;
+
+    border: 1px solid black;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+
+    padding: 20px;
+
+
+
+}
+
+header nav ul li a:hover{
+
+    text-decoration: none;
+
+    color: white;
+
+    background-color: black;
 
 }
 
@@ -24,17 +92,45 @@ main{
 
     color: aliceblue;
 
+}
+
+main ul li, main ul li a{
+
+    margin: 30px;
+
+    font-size: 25px;
+
+}
+
+footer{
+
+    text-align: center;
+
+    height: 10vh;
+
     display: flex;
 
-    flex-direction: column;
+    background-color: white;
 
-    align-items: center;
+    color: black;
+
+    padding: 20px;
+
+}
+
+footer p{
+
+    margin: auto;
 
 }
 
 h3{
 
     color: gray;
+    
+    margin: 50px 50px 10px 50px;
+
+    font-size: 30px;
 
 }
 
@@ -42,13 +138,60 @@ p{
 
     font-size: 1.0rem;
 
-    text-align: center;
+    font-size: 22px;
 
     width: 50%;
 
 }
 
+#biografia{
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+#biografia p{
+
+    margin: 40px;
+
+}
+
+.imgMicael{
+    
+    margin: 20px;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+}
+
+.texto{
+
+    background-color: white;
+
+    color: black;
+
+    padding: 30px;
+
+    border-radius: 5px;
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.texto:hover{
+
+    transform: scale(1.05);
+
+}
+
 .linha{
+
+    margin-top: 20px;
+
+    margin-left: 40px;
 
     display: flex;
 
@@ -70,21 +213,17 @@ p{
 
 }
 
-li {
-    text-align: center;
-}
-
-#projetos{
+#projetos-ul{
     font-size: 20px;
     text-decoration: none;
 }
 
-a{
+#projetos-ul li a{
     text-decoration: none;
-    color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
 
 }
 
-a:hover{
-    color: rgb(33, 33, 33);
+#projetos-ul li a:hover{
+    color: rgb(87, 87, 87);
 }
