@@ -66,6 +66,8 @@ header nav ul li a{
 
     text-decoration: none;
 
+    color: black;
+
     border: 1px solid black;
 
     border-radius: 5px;
@@ -73,8 +75,6 @@ header nav ul li a{
     font-size: 20px;
 
     padding: 20px;
-
-
 
 }
 
@@ -226,4 +226,113 @@ p{
 
 #projetos-ul li a:hover{
     color: rgb(87, 87, 87);
+}
+
+@media screen and (max-device-width: 768px) {
+
+    header{
+
+        height: 7vh;
+
+        display: flex;
+
+        background-color: white;
+
+        color: black;
+
+        padding: 10px;
+
+    }
+
+    header nav ul li{
+
+        margin: 0px;
+    
+        list-style: none;
+    
+        padding: 0px;
+    
+        transition: transform 0.5s ease-in-out;
+    
+    }
+
+    header nav ul li a{
+
+        text-decoration: none;
+    
+        border: 1px solid black;
+    
+        border-radius: 5px;
+    
+        font-size: 15px;
+    
+        padding: 10px;
+
+        margin: 0 25px 0 1px;
+    
+    }
+
+    section ul li{
+
+        margin: 10px;
+
+        font-size: 15px;
+
+        list-style: none;
+
+    }
+
+    section ul li a{
+
+        margin: 0px;
+
+        font-size: 15px;
+
+    }
+
+    section .linha img{
+
+        width: 40px;
+
+        height: 40px;
+
+    }
+
+    footer p{
+
+        font-size: 12px;
+
+    }
+
+    h3{
+
+        font-size: 20px;
+
+    }
+
+    .linha{
+
+        margin: 10px;
+
+    }
+
+    #biografia{
+
+        flex-direction: column;
+
+    }
+
+    #biografia p{
+
+        text-align: center;
+
+        font-size: 16px;
+
+        width: 60%;
+
+        font-weight: bold;
+
+    }
+
+
 }
